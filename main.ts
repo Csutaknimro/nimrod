@@ -1,5 +1,5 @@
 input.onButtonPressed(Button.A, function () {
-    for (let index = 0; index < 4; index++) {
+    for (let index = 0; index < 10; index++) {
         basic.showLeds(`
             # . # . .
             . # # # .
@@ -17,8 +17,7 @@ input.onButtonPressed(Button.A, function () {
     }
 })
 input.onButtonPressed(Button.AB, function () {
-    music.setVolume(18)
-    music.play(music.stringPlayable("C5 B A G F E D C ", 120), music.PlaybackMode.UntilDone)
+	
 })
 basic.showString("Hello!")
 basic.showLeds(`
