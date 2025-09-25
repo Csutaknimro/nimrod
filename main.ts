@@ -22,7 +22,7 @@ input.onGesture(Gesture.Shake, function () {
 input.onButtonPressed(Button.AB, function () {
 	
 })
-basic.showString("Hello!")
+basic.showString("Helló!")
 basic.showLeds(`
     # . . . #
     # # . . #
