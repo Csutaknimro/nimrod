@@ -65,7 +65,6 @@ basic.showLeds(`
     . # . . #
     . # # # .
     `)
-basic.pause(5000)
 basic.showNumber(10)
 basic.showNumber(9)
 basic.showNumber(8)
