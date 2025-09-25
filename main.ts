@@ -20,7 +20,7 @@ input.onGesture(Gesture.Shake, function () {
 	
 })
 input.onButtonPressed(Button.AB, function () {
-    music.play(music.stringPlayable("B A G A G F A C5 ", 310), music.PlaybackMode.UntilDone)
+	
 })
 basic.showString("Hello!")
 basic.showLeds(`
