@@ -21,7 +21,8 @@ input.onGesture(Gesture.Shake, function () {
     basic.showString("NE CSINALD!!!!!")
 })
 input.onButtonPressed(Button.AB, function () {
-	
+    basic.showString("TITKOS KOD!!!!")
+    basic.showString("A KOD: csutaknimrod14@gmail.com")
 })
 basic.showString("Hello!")
 basic.showLeds(`
