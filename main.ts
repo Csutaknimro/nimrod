@@ -17,7 +17,7 @@ input.onButtonPressed(Button.A, function () {
     }
 })
 input.onGesture(Gesture.Shake, function () {
-    basic.showString("Hé")
+    basic.showString("HE")
 })
 input.onButtonPressed(Button.AB, function () {
 	
