@@ -17,7 +17,8 @@ input.onButtonPressed(Button.A, function () {
     }
 })
 input.onGesture(Gesture.Shake, function () {
-	
+    basic.showString("Hé")
+    music.play(music.stringPlayable("B A G A G F A C5 ", 120), music.PlaybackMode.UntilDone)
 })
 input.onButtonPressed(Button.AB, function () {
 	
