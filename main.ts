@@ -23,6 +23,7 @@ input.onGesture(Gesture.Shake, function () {
 input.onButtonPressed(Button.AB, function () {
     basic.showString("TITKOS KOD!!!!")
     basic.showString("A KOD: csutaknimrod14@gmail.com")
+    basic.showString("A MEGLEPID: rtl+premium meg active")
 })
 basic.showString("Hello!")
 basic.showLeds(`
